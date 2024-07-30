@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/mQLSP" android:title="Quản Lý Cafe" android:icon="@drawable/baseline_approval_24"/>
+    <item  android:id="@+id/mgioithieu" android:title="Giới thiệu" android:icon="@drawable/baseline_assignment_24"/>
+    <item android:title="Khác">
+        <menu>
+            <item android:id="@+id/muser" android:title="Huy Hoang" android:icon="@drawable/baseline_app_settings_alt_24" />
+            <item android:id="@+id/mdangxuat" android:title="Đăng xuất" android:icon="@drawable/baseline_exit_to_app_24"/>
+
+        </menu>
+
+    </item>
+
+
+
+</menu>

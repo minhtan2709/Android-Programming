@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#f7f5e8"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="THÊM MỚI Cafe"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#E30A67"/>
+        <EditText
+            android:id="@+id/edttensp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập tên gói "/>
+        <EditText
+            android:id="@+id/edtgia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập giá gói "/>
+        <EditText
+            android:id="@+id/edtdes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập mô tả gói nạp"/>
+        <EditText
+            android:id="@+id/edtanh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Gán link ảnh gói cafe"/>
+
+        <Button
+            android:id="@+id/btnadd"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thêm gói "
+            android:backgroundTint="#DA0579"/>
+        <Button
+            android:id="@+id/btnback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hủy"
+            android:backgroundTint="#198BBF"
+            android:textAllCaps="true"/>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

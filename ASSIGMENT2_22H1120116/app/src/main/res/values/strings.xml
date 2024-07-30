@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ASSIGMENT2_22H1120116</string>
+    <string name="forgot_password"><u>Forgot password?</u></string>
+    <string name="sign_up">Don\'t have an account ?<b> Sign Up</b></string>
+    <string name="search">Tìm kiếm gói nạp</string>
+
+</resources>
